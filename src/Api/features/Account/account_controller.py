@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify
-from account import AccountHandler
+from .account import AccountHandler
 from infrastructure.services.core_service import CoreService
 
 account_controller = Blueprint('account', __name__)

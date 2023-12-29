@@ -1,0 +1,13 @@
+@coreApiUrl=http://127.0.0.1:5000
+
+### GET Chat Completion
+GET {{coreApiUrl}}/api/chat
+Content-Type: application/json
+
+### GET Products
+GET {{coreApiUrl}}/api/product
+Content-Type: application/json
+
+### GET Accounts
+GET {{coreApiUrl}}/api/acount
+Content-Type: application/json

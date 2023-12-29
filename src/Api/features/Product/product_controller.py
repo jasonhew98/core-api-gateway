@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify
-from product import ProductHandler
+from .product import ProductHandler
 from infrastructure.services.core_service import CoreService
 
 product_controller = Blueprint('product', __name__)
